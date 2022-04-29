@@ -40,7 +40,6 @@ def exitgame():
 
 key = 0
 running = True
-inmenu = True
 inplay = False
 
 
@@ -85,6 +84,7 @@ while running:
             for e in pygame.event.get():
                 if e.type == pygame.QUIT:
                     running = False
+                    inplay = False
 
                 if e.type == pygame.KEYDOWN:
                     if e.key == pygame.K_ESCAPE:
