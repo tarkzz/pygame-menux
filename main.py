@@ -97,7 +97,7 @@ while running:
 
     elif m.selected == 2:  # MENU:  Credits selected.
         s.fill(BLACK)
-        TextGraph("by Serkan YARDIM @ 2022", 25, 100, "Times New Roman", 25, (100, 200, 0), False, s)
+        TextGraph("by Serkan (tarkzz) @ 2022", 25, 100, "Times New Roman", 25, (100, 200, 0), False, s)
         pygame.display.update()
         keypressed = False
         while not(keypressed):
