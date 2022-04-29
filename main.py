@@ -8,7 +8,10 @@ WHITE = (255, 255, 255)
 YELLOW = (255, 122, 80)
 RED = (255, 0, 0)
 
-
+# --------------------------------------------------------------------------------------- 
+# Create a menu 
+# menux ( MENU TITLE, menu x position, menu y position, menu color, font size, menu items )
+# --------------------------------------------------------------------------------------- 
 m = menux("MY MENU", 50, 50, YELLOW, 20, ("1. Start", "2. Credits", "3. EXIT"))
 
 
